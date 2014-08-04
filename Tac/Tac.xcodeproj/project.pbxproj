@@ -19,6 +19,14 @@
 		22DF33AF1987D95400E76331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DF33971987D95400E76331 /* UIKit.framework */; };
 		22DF33B71987D95400E76331 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22DF33B51987D95400E76331 /* InfoPlist.strings */; };
 		22DF33B91987D95400E76331 /* TacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DF33B81987D95400E76331 /* TacTests.m */; };
+		22DF33C41987DC2E00E76331 /* TTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DF33C31987DC2E00E76331 /* TTTViewController.m */; };
+		22DF33C81987DD4600E76331 /* TTTTouchSpot.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DF33C71987DD4600E76331 /* TTTTouchSpot.m */; };
+		22DF33D11988301800E76331 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DF33CB1988301800E76331 /* circle.png */; };
+		22DF33D21988301800E76331 /* spot.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DF33CC1988301800E76331 /* spot.png */; };
+		22DF33D31988301800E76331 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DF33CD1988301800E76331 /* x.png */; };
+		22DF33D41988301800E76331 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DF33CE1988301800E76331 /* circle.png */; };
+		22DF33D51988301800E76331 /* spot.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DF33CF1988301800E76331 /* spot.png */; };
+		22DF33D61988301800E76331 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DF33D01988301800E76331 /* x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,16 @@
 		22DF33B41987D95400E76331 /* TacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TacTests-Info.plist"; sourceTree = "<group>"; };
 		22DF33B61987D95400E76331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22DF33B81987D95400E76331 /* TacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TacTests.m; sourceTree = "<group>"; };
+		22DF33C21987DC2E00E76331 /* TTTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTViewController.h; path = Tac/TTTViewController.h; sourceTree = "<group>"; };
+		22DF33C31987DC2E00E76331 /* TTTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTViewController.m; path = Tac/TTTViewController.m; sourceTree = "<group>"; };
+		22DF33C61987DD4600E76331 /* TTTTouchSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTTouchSpot.h; path = Tac/TTTTouchSpot.h; sourceTree = "<group>"; };
+		22DF33C71987DD4600E76331 /* TTTTouchSpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTTouchSpot.m; path = Tac/TTTTouchSpot.m; sourceTree = "<group>"; };
+		22DF33CB1988301800E76331 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		22DF33CC1988301800E76331 /* spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spot.png; sourceTree = "<group>"; };
+		22DF33CD1988301800E76331 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		22DF33CE1988301800E76331 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		22DF33CF1988301800E76331 /* spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spot.png; sourceTree = "<group>"; };
+		22DF33D01988301800E76331 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,14 @@
 		22DF33871987D95400E76331 = {
 			isa = PBXGroup;
 			children = (
+				22DF33CA1988301800E76331 /* xo_files */,
+				22DF33CE1988301800E76331 /* circle.png */,
+				22DF33CF1988301800E76331 /* spot.png */,
+				22DF33D01988301800E76331 /* x.png */,
+				22DF33C91987DD5600E76331 /* Controllers */,
+				22DF33C31987DC2E00E76331 /* TTTViewController.m */,
+				22DF33C21987DC2E00E76331 /* TTTViewController.h */,
+				22DF33C51987DD1A00E76331 /* Views */,
 				22DF33991987D95400E76331 /* Tac */,
 				22DF33B21987D95400E76331 /* TacTests */,
 				22DF33921987D95400E76331 /* Frameworks */,
@@ -142,6 +168,32 @@
 				22DF33B51987D95400E76331 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22DF33C51987DD1A00E76331 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22DF33C61987DD4600E76331 /* TTTTouchSpot.h */,
+				22DF33C71987DD4600E76331 /* TTTTouchSpot.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		22DF33C91987DD5600E76331 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		22DF33CA1988301800E76331 /* xo_files */ = {
+			isa = PBXGroup;
+			children = (
+				22DF33CB1988301800E76331 /* circle.png */,
+				22DF33CC1988301800E76331 /* spot.png */,
+				22DF33CD1988301800E76331 /* x.png */,
+			);
+			path = xo_files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +272,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DF33D61988301800E76331 /* x.png in Resources */,
+				22DF33D11988301800E76331 /* circle.png in Resources */,
+				22DF33D21988301800E76331 /* spot.png in Resources */,
+				22DF33D31988301800E76331 /* x.png in Resources */,
+				22DF33D41988301800E76331 /* circle.png in Resources */,
+				22DF33D51988301800E76331 /* spot.png in Resources */,
 				22DF339E1987D95400E76331 /* InfoPlist.strings in Resources */,
 				22DF33A61987D95400E76331 /* Images.xcassets in Resources */,
 			);
@@ -240,7 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DF33C41987DC2E00E76331 /* TTTViewController.m in Sources */,
 				22DF33A01987D95400E76331 /* main.m in Sources */,
+				22DF33C81987DD4600E76331 /* TTTTouchSpot.m in Sources */,
 				22DF33A41987D95400E76331 /* TTTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +498,7 @@
 				22DF33BE1987D95400E76331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22DF33BF1987D95400E76331 /* Build configuration list for PBXNativeTarget "TacTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +507,7 @@
 				22DF33C11987D95400E76331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
