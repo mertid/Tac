@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22DE678F19AF7543003815BC /* TTTGameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE678E19AF7543003815BC /* TTTGameData.m */; };
 		22DF33941987D95400E76331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DF33931987D95400E76331 /* Foundation.framework */; };
 		22DF33961987D95400E76331 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DF33951987D95400E76331 /* CoreGraphics.framework */; };
 		22DF33981987D95400E76331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DF33971987D95400E76331 /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22DE678D19AF7543003815BC /* TTTGameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTGameData.h; sourceTree = "<group>"; };
+		22DE678E19AF7543003815BC /* TTTGameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTGameData.m; sourceTree = "<group>"; };
 		22DF33901987D95400E76331 /* Tac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DF33931987D95400E76331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22DF33951987D95400E76331 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +66,9 @@
 		22DF33CB1988301800E76331 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 		22DF33CC1988301800E76331 /* spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spot.png; sourceTree = "<group>"; };
 		22DF33CD1988301800E76331 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
-		22DF33CE1988301800E76331 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
-		22DF33CF1988301800E76331 /* spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spot.png; sourceTree = "<group>"; };
-		22DF33D01988301800E76331 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		22DF33CE1988301800E76331 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = ../circle.png; sourceTree = "<group>"; };
+		22DF33CF1988301800E76331 /* spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spot.png; path = ../spot.png; sourceTree = "<group>"; };
+		22DF33D01988301800E76331 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +98,8 @@
 		22DF33871987D95400E76331 = {
 			isa = PBXGroup;
 			children = (
-				22DF33CA1988301800E76331 /* xo_files */,
-				22DF33CE1988301800E76331 /* circle.png */,
-				22DF33CF1988301800E76331 /* spot.png */,
-				22DF33D01988301800E76331 /* x.png */,
+				22DE678D19AF7543003815BC /* TTTGameData.h */,
+				22DE678E19AF7543003815BC /* TTTGameData.m */,
 				22DF33C91987DD5600E76331 /* Controllers */,
 				22DF33C31987DC2E00E76331 /* TTTViewController.m */,
 				22DF33C21987DC2E00E76331 /* TTTViewController.h */,
@@ -148,6 +149,10 @@
 				22DF339C1987D95400E76331 /* InfoPlist.strings */,
 				22DF339F1987D95400E76331 /* main.m */,
 				22DF33A11987D95400E76331 /* Tac-Prefix.pch */,
+				22DF33CA1988301800E76331 /* xo_files */,
+				22DF33CE1988301800E76331 /* circle.png */,
+				22DF33CF1988301800E76331 /* spot.png */,
+				22DF33D01988301800E76331 /* x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,7 +198,8 @@
 				22DF33CC1988301800E76331 /* spot.png */,
 				22DF33CD1988301800E76331 /* x.png */,
 			);
-			path = xo_files;
+			name = xo_files;
+			path = ../xo_files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DE678F19AF7543003815BC /* TTTGameData.m in Sources */,
 				22DF33C41987DC2E00E76331 /* TTTViewController.m in Sources */,
 				22DF33A01987D95400E76331 /* main.m in Sources */,
 				22DF33C81987DD4600E76331 /* TTTTouchSpot.m in Sources */,
